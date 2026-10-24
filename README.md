@@ -6,7 +6,7 @@ An end-to-end ASIC implementation of a multi-domain System-on-Chip (SoC) integra
 
 ## 📌 Top-Level Layout (Post-PnR)
 
-<div align="center"
+<div align="center">
   <img src="Pic/1792730083209.jpg" alt="SoC Physical Design Layout" width="800"/>
   <br>
   <em>Figure 1: Final routed layout generated using Cadence Encounter.</em>
