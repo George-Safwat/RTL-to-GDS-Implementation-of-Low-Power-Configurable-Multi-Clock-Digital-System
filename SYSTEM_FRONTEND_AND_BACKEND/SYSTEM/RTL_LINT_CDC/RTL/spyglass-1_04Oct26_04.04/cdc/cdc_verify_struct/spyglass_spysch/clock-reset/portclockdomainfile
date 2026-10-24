@@ -1,0 +1,11 @@
+INDIRECT_CLOCK_INFO_FLAG:: NO
+
+BEGIN INFO
+INPUT RST_N@@@@<reset>@@@@ -, @@@@ -, 
+INPUT UART_CLK@@@@<clock>@@@@ -, @@@@ -, 
+INPUT REF_CLK@@@@<clock>@@@@ -, @@@@ -, 
+INPUT UART_RX_IN@@@@<->@@@@ SYS_TOP.UART_RX_CLK, @@@@ -, 
+OUTPUT UART_TX_O@@@@<->@@@@ SYS_TOP.UART_TX_CLK, @@@@ -, 
+OUTPUT parity_error@@@@<->@@@@ SYS_TOP.UART_RX_CLK, @@@@ -, 
+OUTPUT framing_error@@@@<->@@@@ SYS_TOP.UART_RX_CLK, @@@@ -, 
+END INFO

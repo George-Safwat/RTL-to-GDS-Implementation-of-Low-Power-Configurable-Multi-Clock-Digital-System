@@ -1,0 +1,1 @@
+waive -rule W164a -msg q%LHS: 'edge_flip_full' width 7 is less than RHS: '(i_div_ratio >> 1)' width 8 in assignment [Hierarchy: ':SYS_TOP:U0_ClkDiv@ClkDiv']%

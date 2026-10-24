@@ -1,0 +1,9 @@
+
+clock@@name@@SYS_TOP.REF_CLK@@domain@@d0@@period@@20@@
+clock@@name@@SYS_TOP.UART_CLK@@domain@@d1@@period@@271.267@@
+clock@@name@@SYS_TOP.UART_TX_CLK@@domain@@d1@@period@@8680.555@@
+clock@@name@@SYS_TOP.UART_RX_CLK@@domain@@d1@@period@@271.267@@
+clock@@name@@SYS_TOP.ALU_CLK@@domain@@d0@@period@@20@@
+reset@@name@@RST_N@@value@@0@@async@@
+quasi_static@@SYS_TOP.U0_RegFile.REG2[7:0]@@
+quasi_static@@SYS_TOP.U0_RegFile.REG3[7:0]@@

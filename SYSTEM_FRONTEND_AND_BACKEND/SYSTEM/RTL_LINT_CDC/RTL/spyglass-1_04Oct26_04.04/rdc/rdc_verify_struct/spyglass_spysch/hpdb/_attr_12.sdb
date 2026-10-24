@@ -1,0 +1,12 @@
+1
+1
+1 
+5
+31
+Clock_path_tag
+Clock_path_tag
+SYS_TOP.UART_CLK&&d1&&1
+SYS_TOP.UART_TX_CLK&&d1&&1
+SYS_TOP.UART_RX_CLK&&d1&&1
+SYS_TOP.ALU_CLK&&d0&&0
+SYS_TOP.REF_CLK&&d0&&0

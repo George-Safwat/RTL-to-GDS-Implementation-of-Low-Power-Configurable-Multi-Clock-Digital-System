@@ -1,0 +1,949 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/prog/modelsim/examples
+T_opt
+!s110 1790793635
+V>IE;PMGmaUf@8KheK1kmg0
+Z1 04 10 4 work tb_SYS_TOP fast 0
+=1-88a4c2e3544c-6abd57a3-29a-597c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1790792727
+Vd::F3=gPlB`eXPMZQO>JA0
+04 7 4 work SYS_TOP fast 0
+=1-88a4c2e3544c-6abd5417-247-55a8
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+Z5 !s110 1791057569
+V>6LXh>R4<oeX_9k]iS3dz2
+R1
+=1-000c2967fe8c-6ac15ea1-d0161-7e21
+R2
+R3
+n@_opt2
+OL;O;10.7c;67
+vALU
+R5
+!i10b 1
+!s100 C_XR3UVB40K:bgXn22J3Z1
+IYz4A0C6D>^jP:V3XbWFQE0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 d/home/ICer/RTL_LINT_CDC/RTL
+w1790793618
+8ALU/ALU.v
+FALU/ALU.v
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1791057569.000000
+Z10 !s107 Top/system_tb.v|Top/SYS_TOP.v|UART/UART_TOP/UART_top.v|UART/UART_RX/uart_rx_top.v|UART/UART_RX/uart_rx_tb.v|UART/UART_RX/stop_check.v|UART/UART_RX/start_checker.v|UART/UART_RX/sampling.v|UART/UART_RX/parity_check.v|UART/UART_RX/fsm.v|UART/UART_RX/edge_bit_counter.v|UART/UART_RX/deserializer.v|UART/UART_TX/uart_top.v|UART/UART_TX/uart_serializer.v|UART/UART_TX/parity_calc.v|UART/UART_TX/mux.v|UART/UART_TX/fsm.v|System_control/sys_ctrl.v|RST_SYNC/RST_SYNC.v|RegFile/RegFile.v|PULSE_GEN/PULSE_GEN.v|DATA_SYNC/DATA_SYNC.v|Clock_Gating/CLK_GATE.v|Clock_Divider/ClkDiv.v|CLKDIV_MUX/CLKDIV_MUX.v|ASYNC_FIFO/Async_fifo.v|ASYNC_FIFO/DF_Sync.v|ASYNC_FIFO/fifo_wr.v|ASYNC_FIFO/fifo_rd.v|ASYNC_FIFO/fifo_mem.v|ALU/ALU.v|
+Z11 !s90 -reportprogress|300|+define+SIMULATION|-f|src_files.list|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 +define+SIMULATION -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@a@l@u
+vAsync_fifo
+R5
+!i10b 1
+!s100 O0h7UUZDaoEc_34GQZ9=_2
+I6:CSkDQi7WikL@e?52H;k0
+R6
+R7
+Z14 w1790792462
+8ASYNC_FIFO/Async_fifo.v
+FASYNC_FIFO/Async_fifo.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@async_fifo
+vCLK_GATE
+R5
+!i10b 1
+!s100 W9SYn?dl<0398OMSmjDA]3
+I3?YaALCBCHX8dX0:2ANMn3
+R6
+R7
+w1791055774
+8Clock_Gating/CLK_GATE.v
+FClock_Gating/CLK_GATE.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@c@l@k_@g@a@t@e
+vClkDiv
+R5
+!i10b 1
+!s100 lH<m`RXAB3IiBQ?nQe<`e1
+Ig>ce9GY>B<;JRak6;CEIi2
+R6
+R7
+Z15 w1790792464
+8Clock_Divider/ClkDiv.v
+FClock_Divider/ClkDiv.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@clk@div
+vCLKDIV_MUX
+R5
+!i10b 1
+!s100 ^1?D^94PkQ^R]]EoJ6DIe2
+IiPW]HX>fDk4CGH1^C]iDd0
+R6
+R7
+R15
+8CLKDIV_MUX/CLKDIV_MUX.v
+FCLKDIV_MUX/CLKDIV_MUX.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@c@l@k@d@i@v_@m@u@x
+vdata_sampling
+Z16 !s110 1790784629
+!i10b 1
+!s100 >R1h^@e4T<d>;Un37SzBB0
+IB>?KP`ezY7VBg;Xa15AUf2
+R6
+Z17 dC:/Users/Legion/Desktop/ASIC Diploma/System/RTL
+Z18 w1790772427
+8UART/UART_RX/data_sampling.v
+FUART/UART_RX/data_sampling.v
+L0 2
+Z19 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z20 !s108 1790784629.000000
+Z21 !s107 UART/UART_RX/uart_rx_top.v|UART/UART_RX/uart_rx_tb.v|UART/UART_RX/uart_rx_fsm.v|UART/UART_RX/UART_RX.v|UART/UART_RX/strt_chk.v|UART/UART_RX/stp_chk.v|UART/UART_RX/stop_check.v|UART/UART_RX/start_checker.v|UART/UART_RX/sampling.v|UART/UART_RX/par_chk.v|UART/UART_RX/parity_check.v|UART/UART_RX/fsm.v|UART/UART_RX/edge_bit_counter.v|UART/UART_RX/deserializer.v|UART/UART_RX/data_sampling.v|UART/UART_TX/uart_tx_fsm.v|UART/UART_TX/UART_TX.v|UART/UART_TX/uart_top.v|UART/UART_TX/uart_tb.v|UART/UART_TX/uart_serializer.v|UART/UART_TX/Serializer.v|UART/UART_TX/parity_calc.v|UART/UART_TX/mux.v|UART/UART_TX/fsm.v|UART/UART_TOP/UART_top.v|Top/system_tb.v|Top/SYS_TOP.v|System_control/sys_ctrl.v|RST_SYNC/RST_SYNC.v|RegFile/RegFile.v|PULSE_GEN/PULSE_GEN.v|DATA_SYNC/DATA_SYNC.v|Clock_Gating/CLK_GATE.v|Clock_Divider/ClkDiv.v|CLKDIV_MUX/CLKDIV_MUX.v|ASYNC_FIFO/fifo_wr.v|ASYNC_FIFO/fifo_rd.v|ASYNC_FIFO/fifo_mem.v|ASYNC_FIFO/DF_Sync.v|ASYNC_FIFO/Async_fifo.v|ALU/ALU.v|
+Z22 !s90 -reportprogress|300|-f|src_files.list|
+!i113 0
+R12
+R3
+vDATA_SYNC
+R5
+!i10b 1
+!s100 hcC2R^UagFleG>Gk2=k450
+IdEI2o;e`:M?oH:Ulm4T;h3
+R6
+R7
+R14
+8DATA_SYNC/DATA_SYNC.v
+FDATA_SYNC/DATA_SYNC.v
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@d@a@t@a_@s@y@n@c
+vdesz
+R5
+!i10b 1
+!s100 L^HS5c9hIiHail^DYOoRT1
+IOF<YlN?F8A1R1k8PPL=?>2
+R6
+R7
+R15
+8UART/UART_RX/deserializer.v
+FUART/UART_RX/deserializer.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vDF_Sync
+R5
+!i10b 1
+!s100 ^ZjG`V3Dd:BkccR?A>gfa2
+I@]?G3:ae9=o:=MPHgoGLX1
+R6
+R7
+R14
+8ASYNC_FIFO/DF_Sync.v
+FASYNC_FIFO/DF_Sync.v
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@d@f_@sync
+vedge_counter
+R5
+!i10b 1
+!s100 B51=TJJhU6m7BkKN9LS]?1
+I=Emh;BF=Vj9;^U]3PgaoJ3
+R6
+R7
+R15
+8UART/UART_RX/edge_bit_counter.v
+FUART/UART_RX/edge_bit_counter.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vfifo_mem
+R5
+!i10b 1
+!s100 ]DQECd_];@JGNf7mNUze92
+IG@OEBAAl<mhD?XkC:=;:O3
+R6
+R7
+R15
+8ASYNC_FIFO/fifo_mem.v
+FASYNC_FIFO/fifo_mem.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vfifo_rd
+R5
+!i10b 1
+!s100 5a<<?DLWA]j^4??WNQe@93
+InCencHP]5A09GlXT5ZlEY3
+R6
+R7
+R14
+8ASYNC_FIFO/fifo_rd.v
+FASYNC_FIFO/fifo_rd.v
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vfifo_wr
+R5
+!i10b 1
+!s100 GG:LHW_;ddc3>]Z[355kD2
+INcJbVzh?9S_UXGiEJc0oW1
+R6
+R7
+R14
+8ASYNC_FIFO/fifo_wr.v
+FASYNC_FIFO/fifo_wr.v
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vfsm
+R5
+!i10b 1
+!s100 DoI>F`:alGX5^NX^9YdIV0
+IE2j149oH`;a_`XE6>kNkH0
+R6
+R7
+R15
+8UART/UART_RX/fsm.v
+FUART/UART_RX/fsm.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vFSM
+R5
+!i10b 1
+!s100 dla_APoa1m^Cj<nmQe3@h1
+ImP_]Vk7cW^fg?5DY951^C0
+R6
+R7
+R15
+8UART/UART_TX/fsm.v
+FUART/UART_TX/fsm.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@f@s@m
+vmux
+R5
+!i10b 1
+!s100 _6ek0e`eOUQ@XgfX=VgVI1
+IIiIH[4i?Ben`a0oT4T6X;2
+R6
+R7
+R15
+8UART/UART_TX/mux.v
+FUART/UART_TX/mux.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vpar_chk
+R16
+!i10b 1
+!s100 PF_U3Am<P=1PW70bFjf8d2
+IIN3NC>NjdjKM@I4^z;?1z1
+R6
+R17
+R18
+8UART/UART_RX/par_chk.v
+FUART/UART_RX/par_chk.v
+L0 2
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R12
+R3
+vparity
+R5
+!i10b 1
+!s100 07U_CBb1PQKzF:;BaNSRg3
+ICda?Di8L5K;dV7RC5XhD=1
+R6
+R7
+R15
+8UART/UART_TX/parity_calc.v
+FUART/UART_TX/parity_calc.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vparity_check
+R5
+!i10b 1
+!s100 b?O`C[4=h8XmEPAA@c`bU1
+IK1CKg__a[hhlbRXGzX?^D0
+R6
+R7
+R15
+8UART/UART_RX/parity_check.v
+FUART/UART_RX/parity_check.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vPULSE_GEN
+R5
+!i10b 1
+!s100 neQkWXdO[]8UIZJ=b:]G;2
+I=hGGYU0XA8`G8hG@GL]793
+R6
+R7
+R14
+8PULSE_GEN/PULSE_GEN.v
+FPULSE_GEN/PULSE_GEN.v
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@p@u@l@s@e_@g@e@n
+vRegFile
+R5
+!i10b 1
+!s100 Y7IDL>aDf:P_D[Z@1iJbG0
+I3nK6FmF]adEYMK<40z0dO0
+R6
+R7
+R14
+8RegFile/RegFile.v
+FRegFile/RegFile.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@reg@file
+vRST_SYNC
+R5
+!i10b 1
+!s100 7E<`C93SVU3hIRZfJCbH<1
+InkH;3BM14dLbPSm7oE@Sd2
+R6
+R7
+R15
+8RST_SYNC/RST_SYNC.v
+FRST_SYNC/RST_SYNC.v
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@r@s@t_@s@y@n@c
+vsample
+R5
+!i10b 1
+!s100 76Lj[DC0O>E;2G:[7CCcz2
+IfC^511AdHjnYhJD8OTH1i1
+R6
+R7
+R15
+8UART/UART_RX/sampling.v
+FUART/UART_RX/sampling.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vSerializer
+R16
+!i10b 1
+!s100 Lz1gGDUPz1EIKNFQYl6_o3
+I^klkY]LV3QIn4[[Zh`6zb3
+R6
+R17
+R18
+8UART/UART_TX/Serializer.v
+FUART/UART_TX/Serializer.v
+L0 2
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R12
+R3
+n@serializer
+vstart_check
+R5
+!i10b 1
+!s100 6m3g<<P?_PdgLjOa=T`Ve2
+IDXAA0f]AlT8SbT?G7[]l40
+R6
+R7
+R15
+8UART/UART_RX/start_checker.v
+FUART/UART_RX/start_checker.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vstop_check
+R5
+!i10b 1
+!s100 2@X@^Biz217c20:_4LMo=2
+Ib>QoBB`6jW]]ia`VN[Yfl0
+R6
+R7
+R15
+8UART/UART_RX/stop_check.v
+FUART/UART_RX/stop_check.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vstp_chk
+R16
+!i10b 1
+!s100 azhd0go9[DzlQQcEDbc8:0
+Io?WRE^DJXCMP8Z:[fWh7M1
+R6
+R17
+R18
+8UART/UART_RX/stp_chk.v
+FUART/UART_RX/stp_chk.v
+L0 2
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R12
+R3
+vstrt_chk
+R16
+!i10b 1
+!s100 W6gOb9ooY7i>bMZlYTozR0
+IC1;@hfGKE4M]J:a2?V[4d1
+R6
+R17
+R18
+8UART/UART_RX/strt_chk.v
+FUART/UART_RX/strt_chk.v
+L0 2
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R12
+R3
+vSYS_CTRL
+R5
+!i10b 1
+!s100 =7W60N0Z=JC@6ONm1SP@72
+I19ZdJU?=?^0XFf6l3?Y4h2
+R6
+R7
+w1791057527
+8System_control/sys_ctrl.v
+FSystem_control/sys_ctrl.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@s@y@s_@c@t@r@l
+vSYS_TOP
+R5
+!i10b 1
+!s100 iT_5:7j]0CnTal8`N`DBN2
+I;UdZRW5BQI0c73UFa47JY2
+R6
+R7
+R15
+8Top/SYS_TOP.v
+FTop/SYS_TOP.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@s@y@s_@t@o@p
+vsz
+R5
+!i10b 1
+!s100 PlMMl`UJNeagY[C45mN]i2
+I4fLO8emn6jm?>k58SWEBa2
+R6
+R7
+R15
+8UART/UART_TX/uart_serializer.v
+FUART/UART_TX/uart_serializer.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vtb_SYS_TOP
+R5
+!i10b 1
+!s100 2];nG4nQn48:?IP7ZBgoU2
+I`bX6B>90A>=m[;TAY=a@01
+R6
+R7
+w1790793604
+8Top/system_tb.v
+FTop/system_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+ntb_@s@y@s_@t@o@p
+vUART
+R5
+!i10b 1
+!s100 _aG[UkZKoJm]USI:1RZLZ3
+I0AZc]d`QRd=TGW?_BlH3=3
+R6
+R7
+R15
+8UART/UART_TOP/UART_top.v
+FUART/UART_TOP/UART_top.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+n@u@a@r@t
+vUART_RX
+R16
+!i10b 1
+!s100 TJ`Pd?zS_Jm6A?R:Y`96L1
+ILel4[KXASCjU>CBoib1@32
+R6
+R17
+R18
+8UART/UART_RX/UART_RX.v
+FUART/UART_RX/UART_RX.v
+L0 2
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R12
+R3
+n@u@a@r@t_@r@x
+vuart_rx_fsm
+R16
+!i10b 1
+!s100 =@ak]<YOegNM=G:?g:e0C0
+IT2cTDz;EXA:oBG`Noz`U72
+R6
+R17
+R18
+8UART/UART_RX/uart_rx_fsm.v
+FUART/UART_RX/uart_rx_fsm.v
+L0 2
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R12
+R3
+vuart_rx_tb
+R5
+!i10b 1
+!s100 <[f]8:oX?jzj?ezZ0WLh63
+In3ZC5@_F]4R8N=7^HNB<h3
+R6
+R7
+R15
+8UART/UART_RX/uart_rx_tb.v
+FUART/UART_RX/uart_rx_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vuart_rx_top
+R5
+!i10b 1
+!s100 1?gD1e0giU6jPze?BChP91
+INN0DYOOCadO?YSULcA?:<3
+R6
+R7
+w1790883686
+8UART/UART_RX/uart_rx_top.v
+FUART/UART_RX/uart_rx_top.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vuart_tb
+!s110 1790784971
+!i10b 1
+!s100 BJ_V5Edj4N_:bD1QnoVlo2
+IBg3dkX7lHgPk6XL_]agk>3
+R6
+R17
+w1785787518
+8UART/UART_TX/uart_tb.v
+FUART/UART_TX/uart_tb.v
+L0 1
+R19
+r1
+!s85 0
+31
+!s108 1790784971.000000
+!s107 UART/UART_RX/uart_rx_top.v|UART/UART_RX/uart_rx_tb.v|UART/UART_RX/stop_check.v|UART/UART_RX/start_checker.v|UART/UART_RX/sampling.v|UART/UART_RX/parity_check.v|UART/UART_RX/fsm.v|UART/UART_RX/edge_bit_counter.v|UART/UART_RX/deserializer.v|UART/UART_TX/uart_top.v|UART/UART_TX/uart_tb.v|UART/UART_TX/uart_serializer.v|UART/UART_TX/parity_calc.v|UART/UART_TX/mux.v|UART/UART_TX/fsm.v|UART/UART_TOP/UART_top.v|Top/system_tb.v|Top/SYS_TOP.v|System_control/sys_ctrl.v|RST_SYNC/RST_SYNC.v|RegFile/RegFile.v|PULSE_GEN/PULSE_GEN.v|DATA_SYNC/DATA_SYNC.v|Clock_Gating/CLK_GATE.v|Clock_Divider/ClkDiv.v|CLKDIV_MUX/CLKDIV_MUX.v|ASYNC_FIFO/fifo_wr.v|ASYNC_FIFO/fifo_rd.v|ASYNC_FIFO/fifo_mem.v|ASYNC_FIFO/DF_Sync.v|ASYNC_FIFO/Async_fifo.v|ALU/ALU.v|
+R22
+!i113 0
+R12
+R3
+vuart_top
+R5
+!i10b 1
+!s100 HaPX5;BZdlkdOl@@@eQ3?0
+Ieg[3:59^7VFULCL@:7BGD1
+R6
+R7
+R15
+8UART/UART_TX/uart_top.v
+FUART/UART_TX/uart_top.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vUART_TX
+R16
+!i10b 1
+!s100 Y0Nk:8Eb=ZGWlKT[WoPXg0
+Ik_ij=R`:3JUdMe5^m>h2I0
+R6
+R17
+R18
+8UART/UART_TX/UART_TX.v
+FUART/UART_TX/UART_TX.v
+L0 2
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R12
+R3
+n@u@a@r@t_@t@x
+vuart_tx_fsm
+R16
+!i10b 1
+!s100 :dc1]=G^o:Im:nnNEEQna0
+ILC53PJ?5XLRWI9>@^zT8E0
+R6
+R17
+R18
+8UART/UART_TX/uart_tx_fsm.v
+FUART/UART_TX/uart_tx_fsm.v
+L0 2
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R12
+R3

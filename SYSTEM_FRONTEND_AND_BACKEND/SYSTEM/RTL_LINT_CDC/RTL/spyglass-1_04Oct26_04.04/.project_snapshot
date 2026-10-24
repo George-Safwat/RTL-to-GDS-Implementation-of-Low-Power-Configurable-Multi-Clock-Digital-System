@@ -1,0 +1,72 @@
+##Data Import Section
+
+read_file -type verilog ALU/ALU.v
+read_file -type verilog ASYNC_FIFO/Async_fifo.v
+read_file -type verilog ASYNC_FIFO/DF_Sync.v
+read_file -type verilog ASYNC_FIFO/fifo_mem.v
+read_file -type verilog ASYNC_FIFO/fifo_rd.v
+read_file -type verilog ASYNC_FIFO/fifo_wr.v
+read_file -type verilog CLKDIV_MUX/CLKDIV_MUX.v
+read_file -type verilog Clock_Divider/ClkDiv.v
+read_file -type verilog Clock_Gating/CLK_GATE.v
+read_file -type verilog DATA_SYNC/DATA_SYNC.v
+read_file -type verilog PULSE_GEN/PULSE_GEN.v
+read_file -type verilog RegFile/RegFile.v
+read_file -type verilog RST_SYNC/RST_SYNC.v
+read_file -type verilog System_control/sys_ctrl.v
+read_file -type verilog Top/SYS_TOP.v
+read_file -type verilog UART/UART_RX/stop_check.v
+read_file -type verilog UART/UART_RX/sampling.v
+read_file -type verilog UART/UART_RX/start_checker.v
+read_file -type verilog UART/UART_RX/parity_check.v
+read_file -type verilog UART/UART_RX/fsm.v
+read_file -type verilog UART/UART_RX/edge_bit_counter.v
+read_file -type verilog UART/UART_RX/deserializer.v
+read_file -type verilog UART/UART_RX/uart_rx_top.v
+read_file -type verilog UART/UART_TX/uart_top.v
+read_file -type verilog UART/UART_TX/uart_serializer.v
+read_file -type verilog UART/UART_TX/parity_calc.v
+read_file -type verilog UART/UART_TX/mux.v
+read_file -type verilog UART/UART_TX/fsm.v
+read_file -type verilog UART/UART_TOP/UART_top.v
+read_file -type sgdc SYS_TOP.sgdc
+read_file -type gateslib std_cells/scmetro_tsmc_cl013g_rvt_tt_1p2v_25c.lib
+
+##Common Options Section
+
+set_option projectwdir .
+set_option language_mode mixed
+set_option designread_enable_synthesis yes
+set_option designread_disable_flatten no
+set_option active_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+
+
+##Goal Setup Section
+
+current_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+
+
+current_goal lint/lint_rtl -alltop
+read_file -type awl ./spyglass-1/lint/lint_rtl/spyglass-1_waiver_file.awl
+set_goal_option default_waiver_file ./spyglass-1/lint/lint_rtl/spyglass-1_waiver_file.awl
+
+
+current_goal lint/lint_turbo_rtl -alltop
+read_file -type awl ./spyglass-1/lint/lint_turbo_rtl/spyglass-1_waiver_file.awl
+set_goal_option default_waiver_file ./spyglass-1/lint/lint_turbo_rtl/spyglass-1_waiver_file.awl
+
+
+current_goal cdc/clock_reset_integrity -alltop
+read_file -type awl ./spyglass-1_04Oct26_04.04/cdc/clock_reset_integrity/spyglass-1_04Oct26_04.04_waiver_file.awl
+set_goal_option default_waiver_file ./spyglass-1_04Oct26_04.04/cdc/clock_reset_integrity/spyglass-1_04Oct26_04.04_waiver_file.awl
+
+
+current_goal cdc/cdc_verify_struct -alltop
+read_file -type awl ./spyglass-1_04Oct26_04.04/cdc/cdc_verify_struct/spyglass-1_04Oct26_04.04_waiver_file.awl
+set_goal_option default_waiver_file ./spyglass-1_04Oct26_04.04/cdc/cdc_verify_struct/spyglass-1_04Oct26_04.04_waiver_file.awl
+
+
+current_goal cdc/cdc_verify -alltop
+read_file -type awl ./spyglass-1_04Oct26_04.04/cdc/cdc_verify/spyglass-1_04Oct26_04.04_waiver_file.awl
+set_goal_option default_waiver_file ./spyglass-1_04Oct26_04.04/cdc/cdc_verify/spyglass-1_04Oct26_04.04_waiver_file.awl
+

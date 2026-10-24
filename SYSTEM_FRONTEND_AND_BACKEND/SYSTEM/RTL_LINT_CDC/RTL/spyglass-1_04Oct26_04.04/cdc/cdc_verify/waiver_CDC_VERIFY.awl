@@ -1,0 +1,4 @@
+waive -rule {  {Ac_cdc01a}  }  -comment {Created by ICer on 07-Oct-2026 02:38:47}  -exact 
+waive -rule {  {Ac_datahold01a}  }  -comment {Created by ICer on 07-Oct-2026 02:38:47}  -exact 
+waive -rule {  {Ac_conv02}  }  -comment {Created by ICer on 07-Oct-2026 02:38:47}  -exact 
+waive -rule {  {Ac_conv01}  }  -comment {Created by ICer on 07-Oct-2026 02:38:47}  -exact 

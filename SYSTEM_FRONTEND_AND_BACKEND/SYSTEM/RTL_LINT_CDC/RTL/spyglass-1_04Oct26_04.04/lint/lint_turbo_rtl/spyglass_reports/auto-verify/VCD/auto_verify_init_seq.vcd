@@ -1,0 +1,29 @@
+$date
+	Wed Oct  7 02:24:10 2026
+
+$end
+$version
+	BMC-0.1
+$end
+$timescale
+	1ps
+$end
+
+$var integer 16 verification_cycle verification_cycle $end
+$scope module SYS_TOP $end
+
+$var wire 1 & UART_CLK $end
+$var wire 1 ' REF_CLK $end
+$var wire 1 ( UART_RX_IN $end
+$var wire 1 ) ALU_CLK $end
+$var wire 1 * RST_N $end
+$upscope $end
+
+$enddefinitions $end
+
+#10000
+b0000000000000000 verification_cycle
+
+0*
+
+#20000

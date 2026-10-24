@@ -1,0 +1,10 @@
+open_project /home/ICer/UART_TX/lint.prj
+
+
+
+current_goal Design_Read -alltop
+
+
+save_project
+gui_exit
+gui_exit

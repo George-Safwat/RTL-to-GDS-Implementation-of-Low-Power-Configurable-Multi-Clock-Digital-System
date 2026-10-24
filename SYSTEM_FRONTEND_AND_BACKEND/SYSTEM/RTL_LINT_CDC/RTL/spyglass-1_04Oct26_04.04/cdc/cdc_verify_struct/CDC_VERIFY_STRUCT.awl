@@ -1,0 +1,2 @@
+waive -rule {  {Ac_conv01}  }  -comment {Created by ICer on 07-Oct-2026 02:38:29}  -exact 
+waive -rule {  {Ac_conv02}  }  -comment {Created by ICer on 07-Oct-2026 02:38:29}  -exact 

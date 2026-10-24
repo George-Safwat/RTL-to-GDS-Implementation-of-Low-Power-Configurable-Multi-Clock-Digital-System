@@ -1,0 +1,318 @@
+25 "STARC05-1.4.3.4" 1
+"STARC-1.4.3.4_VIOLATION_CSV_TAG"
+1
+26 "STARC05-1.4.3.4" 1
+"STARC-1.4.3.4_VIOLATION_CSV_TAG"
+2
+27 "STARC05-1.4.3.4" 3
+"SG_PARENT_CHILD_MSGTAG"
+[25,26]
+"Open_Sp_Sheet"
+["./spyglass-1_04Oct26_04.04/lint/lint_turbo_rtl/spyglass_reports/starc/STARC05-1.4.3.4/000/STARC05-1.4.3.4001.csv@@cross-probecol:2"]
+"Sp_Sheet_File_Name"
+["./spyglass-1_04Oct26_04.04/lint/lint_turbo_rtl/spyglass_reports/starc/STARC05-1.4.3.4/000/STARC05-1.4.3.4001.csv"]
+28 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+1
+29 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+2
+30 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+3
+31 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+4
+32 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+5
+33 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+6
+34 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+7
+35 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+8
+36 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+9
+37 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+10
+38 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+11
+39 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+12
+40 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+13
+41 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+14
+42 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+15
+43 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+16
+44 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+17
+45 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+18
+46 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+19
+47 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+20
+48 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+21
+49 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+22
+50 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+23
+51 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+24
+52 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+25
+53 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+26
+54 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+27
+55 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+28
+56 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+29
+57 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+30
+58 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+31
+59 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+32
+60 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+33
+61 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+34
+62 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+35
+63 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+36
+64 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+37
+65 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+38
+66 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+39
+67 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+40
+68 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+41
+69 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+42
+70 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+43
+71 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+44
+72 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+45
+73 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+46
+74 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+47
+75 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+48
+76 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+49
+77 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+50
+78 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+51
+79 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+52
+80 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+53
+81 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+54
+82 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+55
+83 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+56
+84 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+57
+85 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+58
+86 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+59
+87 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+60
+88 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+61
+89 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+62
+90 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+63
+91 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+64
+92 "Av_initstate01" 1
+"Open_Sp_Sheet"
+["./spyglass-1_04Oct26_04.04/lint/lint_turbo_rtl/spyglass_reports/auto-verify/Uninitialized_Sequential_Elements.csv@@cross-probecol:1@@init_callback:auto_verify::DisableTabsInSpreadSheet","./spyglass-1_04Oct26_04.04/lint/lint_turbo_rtl/spyglass_reports/auto-verify/Initialized_Sequential_Elements.csv@@cross-probecol:1"]
+95 "InfoAnalyzeBBox" 1
+"BBoxEng"
+["TLATNCAX12M","BB_EMPTY_STOP"]
+-1 "Av_Info_Case_Analysis" 4
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[98]
+"RULEGROUP"
+["auto-verify/Info"]
+"SPG_RULETAG_SCH_INFO_RULE"
+"Show Info Case Analysis Data"
+-1 "Av_initstate01" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["auto-verify/Info"]
+-1 "Av_report01" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["auto-verify/Info"]
+-1 "CMD_sglib03" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "InfoAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"
+-1 "RegInputOutput-ML" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[63]
+"RULEGROUP"
+["morelint"]
+-1 "ReportIgnoredOverlappingRules" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[42]
+"RULEGROUP"
+["morelint"]
+-1 "ReportStopSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "STARC05-1.4.3.4" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[80]
+"RULEGROUP"
+["starc2005/s05_Construct/s05_Construct1","starc2005/Basic_Design_Constraint_05"]
+-1 "TurboModeStatus" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "W240" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[53]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "W415a" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[90]
+"RULEGROUP"
+["lint/MultipleDriver"]
+-1 "W480" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[33]
+"RULEGROUP"
+["lint/Loop"]
+-1 "W528" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[94]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]

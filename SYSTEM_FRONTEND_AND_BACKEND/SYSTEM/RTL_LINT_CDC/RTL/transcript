@@ -1,0 +1,2799 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Project file /home/ICer/RTL/RTL/system.mpf was not found.
+# Unable to open project.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:26:20 on Oct 04,2026
+# vlog -reportprogress 300 -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module DF_Sync
+# -- Compiling module Async_fifo
+# -- Compiling module CLKDIV_MUX
+# -- Compiling module ClkDiv
+# ** Error: (vlog-13069) Clock_Gating/CLK_GATE.v(6): near "U0_TLATNCAX12M": syntax error, unexpected IDENTIFIER.
+# ** Error: Clock_Gating/CLK_GATE.v(6): (vlog-13205) Syntax error found in the scope following 'TLATNCAX12M'. Is there a missing '::'?
+# -- Compiling module DATA_SYNC
+# -- Compiling module PULSE_GEN
+# -- Compiling module RegFile
+# -- Compiling module RST_SYNC
+# -- Compiling module SYS_CTRL
+# -- Compiling module FSM
+# -- Compiling module mux
+# -- Compiling module parity
+# -- Compiling module sz
+# -- Compiling module uart_top
+# -- Compiling module desz
+# -- Compiling module edge_counter
+# -- Compiling module fsm
+# -- Compiling module parity_check
+# -- Compiling module sample
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module uart_rx_tb
+# -- Compiling module uart_rx_top
+# -- Compiling module UART
+# -- Compiling module SYS_TOP
+# -- Compiling module tb_SYS_TOP
+# ** Error: Top/system_tb.v: End of source encountered before `endif directive closing region starting at file 'Clock_Gating/CLK_GATE.v' line 5.
+# End time: 03:26:21 on Oct 04,2026, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: /home/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /home/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -f src_files.list"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:28:36 on Oct 04,2026
+# vlog -reportprogress 300 -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module DF_Sync
+# -- Compiling module Async_fifo
+# -- Compiling module CLKDIV_MUX
+# -- Compiling module ClkDiv
+# -- Compiling module CLK_GATE
+# -- Compiling module DATA_SYNC
+# -- Compiling module PULSE_GEN
+# -- Compiling module RegFile
+# -- Compiling module RST_SYNC
+# -- Compiling module SYS_CTRL
+# -- Compiling module FSM
+# -- Compiling module mux
+# -- Compiling module parity
+# -- Compiling module sz
+# -- Compiling module uart_top
+# -- Compiling module desz
+# -- Compiling module edge_counter
+# -- Compiling module fsm
+# -- Compiling module parity_check
+# -- Compiling module sample
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module uart_rx_tb
+# -- Compiling module uart_rx_top
+# -- Compiling module UART
+# -- Compiling module SYS_TOP
+# -- Compiling module tb_SYS_TOP
+# 
+# Top level modules:
+# 	uart_rx_tb
+# 	tb_SYS_TOP
+# End time: 03:28:36 on Oct 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_SYS_TOP 
+# Start time: 03:28:37 on Oct 04,2026
+# ** Error: (vsim-7) Failed to open info file "/home/ICer/RTL/RTL/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: (vopt-7) Failed to open info file "/home/ICer/RTL/RTL/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# Optimization failed
+# ** Error: (vopt-1933) Unable to create temporary directory /home/ICer/RTL/RTL/work/_tempmsg
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+# Loading project system
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:29:08 on Oct 04,2026
+# vlog -reportprogress 300 -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module DF_Sync
+# -- Compiling module Async_fifo
+# -- Compiling module CLKDIV_MUX
+# -- Compiling module ClkDiv
+# -- Compiling module CLK_GATE
+# -- Compiling module DATA_SYNC
+# -- Compiling module PULSE_GEN
+# -- Compiling module RegFile
+# -- Compiling module RST_SYNC
+# -- Compiling module SYS_CTRL
+# -- Compiling module FSM
+# -- Compiling module mux
+# -- Compiling module parity
+# -- Compiling module sz
+# -- Compiling module uart_top
+# -- Compiling module desz
+# -- Compiling module edge_counter
+# -- Compiling module fsm
+# -- Compiling module parity_check
+# -- Compiling module sample
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module uart_rx_tb
+# -- Compiling module uart_rx_top
+# -- Compiling module UART
+# -- Compiling module SYS_TOP
+# -- Compiling module tb_SYS_TOP
+# 
+# Top level modules:
+# 	uart_rx_tb
+# 	tb_SYS_TOP
+# End time: 03:29:08 on Oct 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_SYS_TOP 
+# Start time: 03:28:37 on Oct 04,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Clock_Gating/CLK_GATE.v(12): Module 'TLATNCAX12M' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:29:41 on Oct 04,2026
+# vlog -reportprogress 300 -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module DF_Sync
+# -- Compiling module Async_fifo
+# -- Compiling module CLKDIV_MUX
+# -- Compiling module ClkDiv
+# -- Compiling module CLK_GATE
+# -- Compiling module DATA_SYNC
+# -- Compiling module PULSE_GEN
+# -- Compiling module RegFile
+# -- Compiling module RST_SYNC
+# -- Compiling module SYS_CTRL
+# -- Compiling module FSM
+# -- Compiling module mux
+# -- Compiling module parity
+# -- Compiling module sz
+# -- Compiling module uart_top
+# -- Compiling module desz
+# -- Compiling module edge_counter
+# -- Compiling module fsm
+# -- Compiling module parity_check
+# -- Compiling module sample
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module uart_rx_tb
+# -- Compiling module uart_rx_top
+# -- Compiling module UART
+# -- Compiling module SYS_TOP
+# -- Compiling module tb_SYS_TOP
+# 
+# Top level modules:
+# 	uart_rx_tb
+# 	tb_SYS_TOP
+# End time: 03:29:41 on Oct 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_SYS_TOP 
+# Start time: 03:28:37 on Oct 04,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Clock_Gating/CLK_GATE.v(12): Module 'TLATNCAX12M' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:32:06 on Oct 04,2026
+# vlog -reportprogress 300 "+define+SIMULATION" -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module DF_Sync
+# -- Compiling module Async_fifo
+# -- Compiling module CLKDIV_MUX
+# -- Compiling module ClkDiv
+# -- Compiling module CLK_GATE
+# -- Compiling module DATA_SYNC
+# -- Compiling module PULSE_GEN
+# -- Compiling module RegFile
+# -- Compiling module RST_SYNC
+# -- Compiling module SYS_CTRL
+# -- Compiling module FSM
+# -- Compiling module mux
+# -- Compiling module parity
+# -- Compiling module sz
+# -- Compiling module uart_top
+# -- Compiling module desz
+# -- Compiling module edge_counter
+# -- Compiling module fsm
+# -- Compiling module parity_check
+# -- Compiling module sample
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module uart_rx_tb
+# -- Compiling module uart_rx_top
+# -- Compiling module UART
+# -- Compiling module SYS_TOP
+# -- Compiling module tb_SYS_TOP
+# 
+# Top level modules:
+# 	uart_rx_tb
+# 	tb_SYS_TOP
+# End time: 03:32:06 on Oct 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_SYS_TOP 
+# Start time: 03:28:37 on Oct 04,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "fsm(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "SYS_CTRL(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "FSM(fast)".
+# Loading work.tb_SYS_TOP(fast)
+# Loading work.SYS_TOP(fast)
+# Loading work.RST_SYNC(fast)
+# Loading work.DATA_SYNC(fast)
+# Loading work.Async_fifo(fast)
+# Loading work.fifo_mem(fast)
+# Loading work.DF_Sync(fast)
+# Loading work.fifo_wr(fast)
+# Loading work.fifo_rd(fast)
+# Loading work.PULSE_GEN(fast)
+# Loading work.ClkDiv(fast)
+# Loading work.CLKDIV_MUX(fast)
+# Loading work.UART(fast)
+# Loading work.uart_top(fast)
+# Loading work.sz(fast)
+# Loading work.FSM(fast)
+# Loading work.parity(fast)
+# Loading work.mux(fast)
+# Loading work.uart_rx_top(fast)
+# Loading work.fsm(fast)
+# Loading work.edge_counter(fast)
+# Loading work.sample(fast)
+# Loading work.start_check(fast)
+# Loading work.parity_check(fast)
+# Loading work.stop_check(fast)
+# Loading work.desz(fast)
+# Loading work.SYS_CTRL(fast)
+# Loading work.RegFile(fast)
+# Loading work.ALU(fast)
+# Loading work.CLK_GATE(fast)
+# =================================================
+#                  RESET SYSTEM
+# =================================================
+# [0] RST_N=0 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1000] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1390] RESET RELEASED
+# 
+# =================================================
+#         SYSTEM CONFIGURATION
+# =================================================
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 81
+# ADDRESS = 02
+# ===============================================
+# [1390] UART TX -> aa
+# [10071] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [27433] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [36114] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [44795] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [53476] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [62157] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [70838] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [79519] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [88200] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [96881] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [114243] UART TX -> 81
+# [122924] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [131605] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [140286] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [192372] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [201053] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [209734] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [227096] UART TX -> 02
+# [235777] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [253139] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [261820] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [313906] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 20
+# ADDRESS = 03
+# ===============================================
+# [340130] UART TX -> aa
+# [348811] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [366173] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [374854] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [383535] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [392216] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [400897] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [409578] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [418259] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [426940] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [435621] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [452983] UART TX -> 20
+# [461664] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [513750] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [522431] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [539793] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [565836] UART TX -> 03
+# [574517] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [583198] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [600560] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [661327] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 55
+# ADDRESS = 04
+# ===============================================
+# [678870] UART TX -> aa
+# [687551] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [704913] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [713594] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [722275] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [730956] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [739637] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [748318] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [756999] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [765680] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [774361] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [791723] UART TX -> 55
+# [800404] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [809085] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [817766] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [826447] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [835128] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [843809] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [852490] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [861171] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [869852] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [887214] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [904576] UART TX -> 04
+# [913257] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [939300] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [947981] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [991386] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 04
+# EXPECTED = 55
+# ===============================================
+# [1017610] UART TX -> bb
+# [1026291] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1034972] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1052334] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1061015] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1087058] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1095739] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1104420] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1113101] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1130463] UART TX -> 04
+# [1139144] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1165187] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1173868] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1217273] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1267928] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1276632] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1285336] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1294040] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1302744] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1311448] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1320152] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1328856] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1337560] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1354968] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1367759] UART RX <- 55
+# -------------------------------------------------
+# PASS
+# Expected : 55
+# Received : 55
+# -------------------------------------------------
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = a5
+# ADDRESS = 05
+# ===============================================
+# [1367759] UART TX -> aa
+# [1376440] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1393802] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1402483] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1411164] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1419845] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1428526] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1437207] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1445888] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1454569] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1463250] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1480612] UART TX -> a5
+# [1489293] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1497974] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1506655] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1515336] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1524017] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1541379] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1550060] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1558741] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1567422] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1576103] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1593465] UART TX -> 05
+# [1602146] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1610827] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1619508] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1628189] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1636870] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1688956] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 05
+# EXPECTED = a5
+# ===============================================
+# [1706510] UART TX -> bb
+# [1715191] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1723872] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1741234] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1749915] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1775958] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1784639] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1793320] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1802001] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1819363] UART TX -> 05
+# [1828044] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1836725] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1845406] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1854087] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1862768] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1914854] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1955544] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1964248] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1972952] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1981656] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1990360] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2007768] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2016472] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2025176] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2033880] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2042584] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2055375] UART RX <- a5
+# -------------------------------------------------
+# PASS
+# Expected : a5
+# Received : a5
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 0a
+# B        = 05
+# ALU_FUN  = 0
+# EXPECTED = 0f
+# ===============================================
+# [2055375] UART TX -> cc
+# [2064056] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2090099] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2107461] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2124823] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2142185] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2150866] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2168228] UART TX -> 0a
+# [2176909] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2194271] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2202952] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2211633] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2220314] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2263719] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2281081] UART TX -> 05
+# [2289762] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2298443] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2307124] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2315805] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2324486] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2376572] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2393934] UART TX -> 00
+# [2402615] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2489425] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2530008] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2538712] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2573528] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2617048] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2629839] UART RX <- 0f
+# -------------------------------------------------
+# PASS
+# Expected : 0f
+# Received : 0f
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 0a
+# B        = 05
+# ALU_FUN  = 1
+# EXPECTED = 05
+# ===============================================
+# [2629839] UART TX -> cc
+# [2638520] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2664563] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2681925] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2699287] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2716649] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2725330] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2742692] UART TX -> 0a
+# [2751373] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2768735] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2777416] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2786097] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2794778] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2838183] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2855545] UART TX -> 05
+# [2864226] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2872907] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2881588] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2890269] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2898950] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2951036] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2968398] UART TX -> 01
+# [2977079] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2985760] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2994441] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3055208] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3104472] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3113176] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3121880] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3130584] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3139288] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3191512] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3204303] UART RX <- 05
+# -------------------------------------------------
+# PASS
+# Expected : 05
+# Received : 05
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 05
+# B        = 04
+# ALU_FUN  = 2
+# EXPECTED = 14
+# ===============================================
+# [3204303] UART TX -> cc
+# [3212984] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3239027] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3256389] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3273751] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3291113] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3299794] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3317156] UART TX -> 05
+# [3325837] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3334518] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3343199] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3351880] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3360561] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3412647] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3430009] UART TX -> 04
+# [3438690] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3464733] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3473414] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3516819] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3542862] UART TX -> 02
+# [3551543] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3568905] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3577586] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3629672] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3678936] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3705048] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3713752] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3722456] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3731160] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3765976] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3778767] UART RX <- 14
+# -------------------------------------------------
+# PASS
+# Expected : 14
+# Received : 14
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 14
+# B        = 04
+# ALU_FUN  = 3
+# EXPECTED = 05
+# ===============================================
+# [3778767] UART TX -> cc
+# [3787448] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3813491] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3830853] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3848215] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3865577] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3874258] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3891620] UART TX -> 14
+# [3900301] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3926344] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3935025] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3943706] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3952387] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3987111] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4004473] UART TX -> 04
+# [4013154] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4039197] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4047878] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4091283] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4117326] UART TX -> 03
+# [4126007] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4134688] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4152050] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4212817] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4253400] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [4262104] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4270808] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [4279512] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4288216] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [4340440] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4353231] UART RX <- 05
+# -------------------------------------------------
+# PASS
+# Expected : 05
+# Received : 05
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 4
+# EXPECTED = 00
+# ===============================================
+# [4353231] UART TX -> cc
+# [4361912] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4387955] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4405317] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4422679] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4440041] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4448722] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4466084] UART TX -> f0
+# [4474765] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4518170] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4552894] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4561575] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4578937] UART TX -> 0f
+# [4587618] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4596299] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4631023] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4674428] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4691790] UART TX -> 04
+# [4700471] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4726514] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4735195] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4778600] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4827864] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [4914904] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4927695] UART RX <- 00
+# -------------------------------------------------
+# PASS
+# Expected : 00
+# Received : 00
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 5
+# EXPECTED = ff
+# ===============================================
+# [4927695] UART TX -> cc
+# [4936376] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4962419] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4979781] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4997143] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5014505] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5023186] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5040548] UART TX -> f0
+# [5049229] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5092634] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5127358] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5136039] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5153401] UART TX -> 0f
+# [5162082] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5170763] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5205487] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5248892] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5266254] UART TX -> 05
+# [5274935] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5283616] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5292297] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5300978] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5309659] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5361745] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5402328] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [5411032] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5480664] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [5489368] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5502159] UART RX <- ff
+# -------------------------------------------------
+# PASS
+# Expected : ff
+# Received : ff
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 6
+# EXPECTED = ff
+# ===============================================
+# [5502159] UART TX -> cc
+# [5510840] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5536883] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5554245] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5571607] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5588969] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5597650] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5615012] UART TX -> f0
+# [5623693] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5667098] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5701822] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5710503] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5727865] UART TX -> 0f
+# [5736546] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5745227] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5779951] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5823356] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5840718] UART TX -> 06
+# [5849399] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5866761] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5884123] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5936209] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5976792] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [5985496] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6055128] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [6063832] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6076623] UART RX <- ff
+# -------------------------------------------------
+# PASS
+# Expected : ff
+# Received : ff
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 7
+# EXPECTED = 00
+# ===============================================
+# [6076623] UART TX -> cc
+# [6085304] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6111347] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6128709] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6146071] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6163433] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6172114] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6189476] UART TX -> f0
+# [6198157] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6241562] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6276286] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6284967] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6302329] UART TX -> 0f
+# [6311010] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6319691] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6354415] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6397820] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6415182] UART TX -> 07
+# [6423863] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6432544] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6458587] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6501992] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6551256] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [6638296] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6651087] UART RX <- 00
+# -------------------------------------------------
+# PASS
+# Expected : 00
+# Received : 00
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 8
+# EXPECTED = ff
+# ===============================================
+# [6651087] UART TX -> cc
+# [6659768] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6685811] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6703173] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6720535] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6737897] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6746578] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6763940] UART TX -> f0
+# [6772621] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6816026] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6850750] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6859431] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6876793] UART TX -> 0f
+# [6885474] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6894155] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6928879] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6972284] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6989646] UART TX -> 08
+# [6998327] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7033051] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7041732] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7076456] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7125720] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [7134424] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7204056] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [7212760] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7225551] UART RX <- ff
+# -------------------------------------------------
+# PASS
+# Expected : ff
+# Received : ff
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 9
+# EXPECTED = 00
+# ===============================================
+# [7225551] UART TX -> cc
+# [7234232] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7260275] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7277637] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7294999] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7312361] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7321042] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7338404] UART TX -> f0
+# [7347085] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7390490] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7425214] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7433895] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7451257] UART TX -> 0f
+# [7459938] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7468619] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7503343] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7546748] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7564110] UART TX -> 09
+# [7572791] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7581472] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7590153] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7607515] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7616196] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7659601] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7700184] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [7787224] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7800015] UART RX <- 00
+# -------------------------------------------------
+# PASS
+# Expected : 00
+# Received : 00
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 55
+# B        = 55
+# ALU_FUN  = a
+# EXPECTED = 01
+# ===============================================
+# [7800015] UART TX -> cc
+# [7808696] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7834739] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7852101] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7869463] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7886825] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7895506] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7912868] UART TX -> 55
+# [7921549] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7930230] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7938911] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7947592] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7956273] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7964954] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7973635] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7982316] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7990997] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8008359] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8025721] UART TX -> 55
+# [8034402] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8043083] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8051764] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8060445] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8069126] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8077807] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8086488] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8095169] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8103850] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8121212] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8138574] UART TX -> 0a
+# [8147255] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8164617] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8173298] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8181979] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8190660] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8234065] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8274648] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [8283352] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8292056] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [8352984] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8374479] UART RX <- 01
+# -------------------------------------------------
+# PASS
+# Expected : 01
+# Received : 01
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 55
+# B        = 20
+# ALU_FUN  = b
+# EXPECTED = 01
+# ===============================================
+# [8374479] UART TX -> cc
+# [8383160] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8409203] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8426565] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8443927] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8461289] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8469970] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8487332] UART TX -> 55
+# [8496013] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8504694] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8513375] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8522056] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8530737] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8539418] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8548099] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8556780] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8565461] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8582823] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8600185] UART TX -> 20
+# [8608866] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8660952] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8669633] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8686995] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8713038] UART TX -> 0b
+# [8721719] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8730400] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8747762] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8756443] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8765124] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8799848] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8849112] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [8857816] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8866520] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [8927448] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8948943] UART RX <- 01
+# -------------------------------------------------
+# PASS
+# Expected : 01
+# Received : 01
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 80
+# B        = 00
+# ALU_FUN  = c
+# EXPECTED = 40
+# ===============================================
+# [8948943] UART TX -> cc
+# [8957624] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8983667] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9001029] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9018391] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9035753] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9044434] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9061796] UART TX -> 80
+# [9070477] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9139925] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9174649] UART TX -> 00
+# [9183330] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9270140] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9287502] UART TX -> 0c
+# [9296183] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9322226] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9339588] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9382993] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9423576] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [9484504] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9493208] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [9501912] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9523407] UART RX <- 40
+# -------------------------------------------------
+# PASS
+# Expected : 40
+# Received : 40
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 04
+# B        = 00
+# ALU_FUN  = d
+# EXPECTED = 08
+# ===============================================
+# [9523407] UART TX -> cc
+# [9532088] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9558131] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9575493] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9592855] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9610217] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9618898] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9636260] UART TX -> 04
+# [9644941] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9670984] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9679665] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9723070] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9749113] UART TX -> 00
+# [9757794] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9844604] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9861966] UART TX -> 0d
+# [9870647] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9879328] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9888009] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9896690] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9914052] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9948776] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9998040] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [10032856] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10041560] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [10076376] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10097871] UART RX <- 08
+# -------------------------------------------------
+# PASS
+# Expected : 08
+# Received : 08
+# -------------------------------------------------
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 0c
+# ADDRESS = 00
+# ===============================================
+# [10097871] UART TX -> aa
+# [10106552] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10123914] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10132595] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10141276] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10149957] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10158638] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10167319] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10176000] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10184681] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10193362] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10210724] UART TX -> 0c
+# [10219405] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10245448] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10262810] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10306215] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10323577] UART TX -> 00
+# [10332258] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10419068] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 03
+# ADDRESS = 01
+# ===============================================
+# [10436610] UART TX -> aa
+# [10445291] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10462653] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10471334] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10480015] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10488696] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10497377] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10506058] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10514739] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10523420] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10532101] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10549463] UART TX -> 03
+# [10558144] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10566825] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10584187] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10644954] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10662316] UART TX -> 01
+# [10670997] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10679678] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10688359] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10749126] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# ALU OPERATION - NO OPERANDS
+# ALU_FUN  = 0
+# EXPECTED = 0f
+# ===============================================
+# [10775350] UART TX -> dd
+# [10784031] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10792712] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10801393] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10810074] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10836117] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10844798] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10862160] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10870841] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10888203] UART TX -> 00
+# [10896884] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10983694] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11025112] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11033816] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11068632] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11112152] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11124943] UART RX <- 0f
+# -------------------------------------------------
+# PASS
+# Expected : 0f
+# Received : 0f
+# -------------------------------------------------
+# 
+# ===============================================
+# ERROR TEST: BAD PARITY  (frame = bb)
+# ===============================================
+# [11124943] UART TX (ERROR INJECT) -> bb  bad_parity=1 bad_stop=0
+# [11133624] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11142305] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11159667] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11168348] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11194391] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11203072] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11216600] WARNING: parity_error asserted
+# [11216600] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=1 FRAME_ERR=0
+# PASS: parity_error asserted
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 04
+# EXPECTED = 55
+# ===============================================
+# [11255157] UART TX -> bb
+# [11263838] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=1 FRAME_ERR=0
+# [11272519] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=1 FRAME_ERR=0
+# [11276984] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11289881] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11298562] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11324605] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11333286] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11341967] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11350648] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11368010] UART TX -> 04
+# [11376691] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11402734] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11411415] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11454820] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11503832] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11512536] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11521240] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11529944] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11538648] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11547352] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11556056] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11564760] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11573464] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11590872] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11603663] UART RX <- 55
+# -------------------------------------------------
+# PASS
+# Expected : 55
+# Received : 55
+# -------------------------------------------------
+# 
+# ===============================================
+# ERROR TEST: BAD STOP BIT  (frame = bb)
+# ===============================================
+# [11603663] UART TX (ERROR INJECT) -> bb  bad_parity=0 bad_stop=1
+# [11612344] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11621025] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11638387] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11647068] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11673111] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11681792] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11690473] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11704024] WARNING: framing_error asserted
+# [11704024] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=1
+# [11704568] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11707835] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11709464] WARNING: framing_error asserted
+# [11709464] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=1
+# [11710008] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# PASS: framing_error asserted
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 05
+# EXPECTED = a5
+# ===============================================
+# [11733877] UART TX -> bb
+# [11742558] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11751239] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11768601] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11777282] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11803325] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11812006] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11820687] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11829368] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11846730] UART TX -> 05
+# [11855411] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11864092] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11872773] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11881454] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11890135] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11942221] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11982552] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11991256] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11999960] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [12008664] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [12017368] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [12034776] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [12043480] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [12052184] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [12060888] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [12069592] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [12082383] UART RX <- a5
+# -------------------------------------------------
+# PASS
+# Expected : a5
+# Received : a5
+# -------------------------------------------------
+# 
+# =================================================
+#              TESTBENCH FINISHED
+# =================================================
+#    PASSED : 21
+#    FAILED : 0
+#    RESULT : ALL TESTS PASSED
+# =================================================
+# ** Note: $finish    : Top/system_tb.v(866)
+#    Time: 12083383 ns  Iteration: 0  Instance: /tb_SYS_TOP
+# 1
+# Break in Module tb_SYS_TOP at Top/system_tb.v line 866
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:54:38 on Oct 04,2026
+# vlog -reportprogress 300 "+define+SIMULATION" -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module DF_Sync
+# -- Compiling module Async_fifo
+# -- Compiling module CLKDIV_MUX
+# -- Compiling module ClkDiv
+# -- Compiling module CLK_GATE
+# -- Compiling module DATA_SYNC
+# -- Compiling module PULSE_GEN
+# -- Compiling module RegFile
+# -- Compiling module RST_SYNC
+# -- Compiling module SYS_CTRL
+# ** Warning: System_control/sys_ctrl.v(95): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module FSM
+# -- Compiling module mux
+# -- Compiling module parity
+# -- Compiling module sz
+# -- Compiling module uart_top
+# -- Compiling module desz
+# -- Compiling module edge_counter
+# -- Compiling module fsm
+# -- Compiling module parity_check
+# -- Compiling module sample
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module uart_rx_tb
+# -- Compiling module uart_rx_top
+# -- Compiling module UART
+# -- Compiling module SYS_TOP
+# -- Compiling module tb_SYS_TOP
+# 
+# Top level modules:
+# 	uart_rx_tb
+# 	tb_SYS_TOP
+# End time: 03:54:38 on Oct 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 03:54:39 on Oct 04,2026, Elapsed time: 0:26:02
+# Errors: 3, Warnings: 1
+# vsim -voptargs="+acc" work.tb_SYS_TOP 
+# Start time: 03:54:39 on Oct 04,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "SYS_CTRL(fast)".
+# Loading work.tb_SYS_TOP(fast)
+# Loading work.SYS_TOP(fast)
+# Loading work.RST_SYNC(fast)
+# Loading work.DATA_SYNC(fast)
+# Loading work.Async_fifo(fast)
+# Loading work.fifo_mem(fast)
+# Loading work.DF_Sync(fast)
+# Loading work.fifo_wr(fast)
+# Loading work.fifo_rd(fast)
+# Loading work.PULSE_GEN(fast)
+# Loading work.ClkDiv(fast)
+# Loading work.CLKDIV_MUX(fast)
+# Loading work.UART(fast)
+# Loading work.uart_top(fast)
+# Loading work.sz(fast)
+# Loading work.FSM(fast)
+# Loading work.parity(fast)
+# Loading work.mux(fast)
+# Loading work.uart_rx_top(fast)
+# Loading work.fsm(fast)
+# Loading work.edge_counter(fast)
+# Loading work.sample(fast)
+# Loading work.start_check(fast)
+# Loading work.parity_check(fast)
+# Loading work.stop_check(fast)
+# Loading work.desz(fast)
+# Loading work.SYS_CTRL(fast)
+# Loading work.RegFile(fast)
+# Loading work.ALU(fast)
+# Loading work.CLK_GATE(fast)
+# =================================================
+#                  RESET SYSTEM
+# =================================================
+# [0] RST_N=0 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1000] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1390] RESET RELEASED
+# 
+# =================================================
+#         SYSTEM CONFIGURATION
+# =================================================
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 81
+# ADDRESS = 02
+# ===============================================
+# [1390] UART TX -> aa
+# [10071] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [27433] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [36114] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [44795] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [53476] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [62157] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [70838] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [79519] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [88200] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [96881] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [114243] UART TX -> 81
+# [122924] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [131605] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [140286] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [192372] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [201053] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [209734] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [227096] UART TX -> 02
+# [235777] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [253139] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [261820] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [313906] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 20
+# ADDRESS = 03
+# ===============================================
+# [340130] UART TX -> aa
+# [348811] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [366173] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [374854] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [383535] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [392216] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [400897] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [409578] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [418259] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [426940] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [435621] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [452983] UART TX -> 20
+# [461664] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [513750] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [522431] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [539793] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [565836] UART TX -> 03
+# [574517] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [583198] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [600560] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [661327] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 55
+# ADDRESS = 04
+# ===============================================
+# [678870] UART TX -> aa
+# [687551] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [704913] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [713594] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [722275] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [730956] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [739637] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [748318] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [756999] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [765680] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [774361] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [791723] UART TX -> 55
+# [800404] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [809085] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [817766] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [826447] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [835128] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [843809] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [852490] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [861171] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [869852] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [887214] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [904576] UART TX -> 04
+# [913257] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [939300] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [947981] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [991386] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 04
+# EXPECTED = 55
+# ===============================================
+# [1017610] UART TX -> bb
+# [1026291] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1034972] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1052334] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1061015] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1087058] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1095739] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1104420] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1113101] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1130463] UART TX -> 04
+# [1139144] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1165187] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1173868] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1217273] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1236104] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1236376] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1236648] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1236920] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1237192] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1237464] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1237736] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1238008] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1238280] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1238824] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# Break key hit
+# Break in Module tb_SYS_TOP at Top/system_tb.v line 86
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:55:34 on Oct 04,2026
+# vlog -reportprogress 300 "+define+SIMULATION" -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module DF_Sync
+# -- Compiling module Async_fifo
+# -- Compiling module CLKDIV_MUX
+# -- Compiling module ClkDiv
+# -- Compiling module CLK_GATE
+# -- Compiling module DATA_SYNC
+# -- Compiling module PULSE_GEN
+# -- Compiling module RegFile
+# -- Compiling module RST_SYNC
+# -- Compiling module SYS_CTRL
+# ** Warning: System_control/sys_ctrl.v(95): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module FSM
+# -- Compiling module mux
+# -- Compiling module parity
+# -- Compiling module sz
+# -- Compiling module uart_top
+# -- Compiling module desz
+# -- Compiling module edge_counter
+# -- Compiling module fsm
+# -- Compiling module parity_check
+# -- Compiling module sample
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module uart_rx_tb
+# -- Compiling module uart_rx_top
+# -- Compiling module UART
+# -- Compiling module SYS_TOP
+# -- Compiling module tb_SYS_TOP
+# 
+# Top level modules:
+# 	uart_rx_tb
+# 	tb_SYS_TOP
+# End time: 03:55:34 on Oct 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 03:55:34 on Oct 04,2026, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_SYS_TOP 
+# Start time: 03:55:34 on Oct 04,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.tb_SYS_TOP(fast)
+# Loading work.SYS_TOP(fast)
+# Loading work.RST_SYNC(fast)
+# Loading work.DATA_SYNC(fast)
+# Loading work.Async_fifo(fast)
+# Loading work.fifo_mem(fast)
+# Loading work.DF_Sync(fast)
+# Loading work.fifo_wr(fast)
+# Loading work.fifo_rd(fast)
+# Loading work.PULSE_GEN(fast)
+# Loading work.ClkDiv(fast)
+# Loading work.CLKDIV_MUX(fast)
+# Loading work.UART(fast)
+# Loading work.uart_top(fast)
+# Loading work.sz(fast)
+# Loading work.FSM(fast)
+# Loading work.parity(fast)
+# Loading work.mux(fast)
+# Loading work.uart_rx_top(fast)
+# Loading work.fsm(fast)
+# Loading work.edge_counter(fast)
+# Loading work.sample(fast)
+# Loading work.start_check(fast)
+# Loading work.parity_check(fast)
+# Loading work.stop_check(fast)
+# Loading work.desz(fast)
+# Loading work.SYS_CTRL(fast)
+# Loading work.RegFile(fast)
+# Loading work.ALU(fast)
+# Loading work.CLK_GATE(fast)
+# =================================================
+#                  RESET SYSTEM
+# =================================================
+# [0] RST_N=0 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1000] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1390] RESET RELEASED
+# 
+# =================================================
+#         SYSTEM CONFIGURATION
+# =================================================
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 81
+# ADDRESS = 02
+# ===============================================
+# [1390] UART TX -> aa
+# [10071] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [27433] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [36114] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [44795] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [53476] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [62157] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [70838] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [79519] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [88200] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [96881] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [114243] UART TX -> 81
+# [122924] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [131605] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [140286] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [192372] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [201053] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [209734] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [227096] UART TX -> 02
+# [235777] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [253139] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [261820] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [313906] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 20
+# ADDRESS = 03
+# ===============================================
+# [340130] UART TX -> aa
+# [348811] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [366173] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [374854] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [383535] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [392216] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [400897] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [409578] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [418259] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [426940] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [435621] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [452983] UART TX -> 20
+# [461664] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [513750] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [522431] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [539793] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [565836] UART TX -> 03
+# [574517] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [583198] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [600560] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [661327] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 55
+# ADDRESS = 04
+# ===============================================
+# [678870] UART TX -> aa
+# [687551] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [704913] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [713594] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [722275] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [730956] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [739637] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [748318] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [756999] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [765680] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [774361] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [791723] UART TX -> 55
+# [800404] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [809085] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [817766] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [826447] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [835128] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [843809] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [852490] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [861171] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [869852] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [887214] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [904576] UART TX -> 04
+# [913257] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [939300] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [947981] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [991386] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 04
+# EXPECTED = 55
+# ===============================================
+# [1017610] UART TX -> bb
+# [1026291] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1034972] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1052334] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1061015] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1087058] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1095739] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1104420] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1113101] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1130463] UART TX -> 04
+# [1139144] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1165187] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1173868] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1217273] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1236104] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1236376] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1236648] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1236920] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1237192] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1237464] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1237736] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1238008] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1238280] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1238824] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# Break key hit
+# Simulation stop requested.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:59:29 on Oct 04,2026
+# vlog -reportprogress 300 "+define+SIMULATION" -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module DF_Sync
+# -- Compiling module Async_fifo
+# -- Compiling module CLKDIV_MUX
+# -- Compiling module ClkDiv
+# -- Compiling module CLK_GATE
+# -- Compiling module DATA_SYNC
+# -- Compiling module PULSE_GEN
+# -- Compiling module RegFile
+# -- Compiling module RST_SYNC
+# -- Compiling module SYS_CTRL
+# -- Compiling module FSM
+# -- Compiling module mux
+# -- Compiling module parity
+# -- Compiling module sz
+# -- Compiling module uart_top
+# -- Compiling module desz
+# -- Compiling module edge_counter
+# -- Compiling module fsm
+# -- Compiling module parity_check
+# -- Compiling module sample
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module uart_rx_tb
+# -- Compiling module uart_rx_top
+# -- Compiling module UART
+# -- Compiling module SYS_TOP
+# -- Compiling module tb_SYS_TOP
+# 
+# Top level modules:
+# 	uart_rx_tb
+# 	tb_SYS_TOP
+# End time: 03:59:29 on Oct 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 03:59:29 on Oct 04,2026, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_SYS_TOP 
+# Start time: 03:59:29 on Oct 04,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "SYS_CTRL(fast)".
+# Loading work.tb_SYS_TOP(fast)
+# Loading work.SYS_TOP(fast)
+# Loading work.RST_SYNC(fast)
+# Loading work.DATA_SYNC(fast)
+# Loading work.Async_fifo(fast)
+# Loading work.fifo_mem(fast)
+# Loading work.DF_Sync(fast)
+# Loading work.fifo_wr(fast)
+# Loading work.fifo_rd(fast)
+# Loading work.PULSE_GEN(fast)
+# Loading work.ClkDiv(fast)
+# Loading work.CLKDIV_MUX(fast)
+# Loading work.UART(fast)
+# Loading work.uart_top(fast)
+# Loading work.sz(fast)
+# Loading work.FSM(fast)
+# Loading work.parity(fast)
+# Loading work.mux(fast)
+# Loading work.uart_rx_top(fast)
+# Loading work.fsm(fast)
+# Loading work.edge_counter(fast)
+# Loading work.sample(fast)
+# Loading work.start_check(fast)
+# Loading work.parity_check(fast)
+# Loading work.stop_check(fast)
+# Loading work.desz(fast)
+# Loading work.SYS_CTRL(fast)
+# Loading work.RegFile(fast)
+# Loading work.ALU(fast)
+# Loading work.CLK_GATE(fast)
+# =================================================
+#                  RESET SYSTEM
+# =================================================
+# [0] RST_N=0 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1000] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1390] RESET RELEASED
+# 
+# =================================================
+#         SYSTEM CONFIGURATION
+# =================================================
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 81
+# ADDRESS = 02
+# ===============================================
+# [1390] UART TX -> aa
+# [10071] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [27433] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [36114] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [44795] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [53476] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [62157] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [70838] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [79519] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [88200] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [96881] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [114243] UART TX -> 81
+# [122924] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [131605] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [140286] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [192372] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [201053] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [209734] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [227096] UART TX -> 02
+# [235777] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [253139] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [261820] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [313906] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 20
+# ADDRESS = 03
+# ===============================================
+# [340130] UART TX -> aa
+# [348811] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [366173] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [374854] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [383535] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [392216] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [400897] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [409578] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [418259] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [426940] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [435621] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [452983] UART TX -> 20
+# [461664] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [513750] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [522431] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [539793] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [565836] UART TX -> 03
+# [574517] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [583198] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [600560] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [661327] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 55
+# ADDRESS = 04
+# ===============================================
+# [678870] UART TX -> aa
+# [687551] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [704913] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [713594] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [722275] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [730956] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [739637] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [748318] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [756999] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [765680] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [774361] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [791723] UART TX -> 55
+# [800404] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [809085] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [817766] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [826447] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [835128] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [843809] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [852490] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [861171] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [869852] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [887214] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [904576] UART TX -> 04
+# [913257] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [939300] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [947981] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [991386] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 04
+# EXPECTED = 55
+# ===============================================
+# [1017610] UART TX -> bb
+# [1026291] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1034972] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1052334] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1061015] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1087058] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1095739] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1104420] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1113101] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1130463] UART TX -> 04
+# [1139144] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1165187] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1173868] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1217273] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1267928] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1276632] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1285336] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1294040] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1302744] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1311448] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1320152] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1328856] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1337560] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1354968] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1367759] UART RX <- 55
+# -------------------------------------------------
+# PASS
+# Expected : 55
+# Received : 55
+# -------------------------------------------------
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = a5
+# ADDRESS = 05
+# ===============================================
+# [1367759] UART TX -> aa
+# [1376440] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1393802] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1402483] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1411164] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1419845] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1428526] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1437207] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1445888] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1454569] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1463250] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1480612] UART TX -> a5
+# [1489293] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1497974] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1506655] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1515336] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1524017] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1541379] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1550060] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1558741] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1567422] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1576103] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1593465] UART TX -> 05
+# [1602146] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1610827] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1619508] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1628189] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1636870] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1688956] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 05
+# EXPECTED = a5
+# ===============================================
+# [1706510] UART TX -> bb
+# [1715191] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1723872] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1741234] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1749915] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1775958] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1784639] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1793320] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1802001] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1819363] UART TX -> 05
+# [1828044] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1836725] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1845406] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1854087] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1862768] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1914854] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1955544] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1964248] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1972952] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [1981656] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [1990360] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2007768] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2016472] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2025176] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2033880] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2042584] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2055375] UART RX <- a5
+# -------------------------------------------------
+# PASS
+# Expected : a5
+# Received : a5
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 0a
+# B        = 05
+# ALU_FUN  = 0
+# EXPECTED = 0f
+# ===============================================
+# [2055375] UART TX -> cc
+# [2064056] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2090099] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2107461] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2124823] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2142185] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2150866] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2168228] UART TX -> 0a
+# [2176909] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2194271] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2202952] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2211633] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2220314] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2263719] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2281081] UART TX -> 05
+# [2289762] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2298443] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2307124] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2315805] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2324486] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2376572] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2393934] UART TX -> 00
+# [2402615] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2489425] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2530008] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2538712] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2573528] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [2617048] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2629839] UART RX <- 0f
+# -------------------------------------------------
+# PASS
+# Expected : 0f
+# Received : 0f
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 0a
+# B        = 05
+# ALU_FUN  = 1
+# EXPECTED = 05
+# ===============================================
+# [2629839] UART TX -> cc
+# [2638520] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2664563] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2681925] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2699287] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2716649] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2725330] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2742692] UART TX -> 0a
+# [2751373] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2768735] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2777416] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2786097] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2794778] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2838183] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2855545] UART TX -> 05
+# [2864226] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2872907] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2881588] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2890269] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2898950] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2951036] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2968398] UART TX -> 01
+# [2977079] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2985760] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [2994441] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3055208] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3104472] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3113176] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3121880] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3130584] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3139288] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3191512] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3204303] UART RX <- 05
+# -------------------------------------------------
+# PASS
+# Expected : 05
+# Received : 05
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 05
+# B        = 04
+# ALU_FUN  = 2
+# EXPECTED = 14
+# ===============================================
+# [3204303] UART TX -> cc
+# [3212984] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3239027] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3256389] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3273751] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3291113] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3299794] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3317156] UART TX -> 05
+# [3325837] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3334518] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3343199] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3351880] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3360561] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3412647] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3430009] UART TX -> 04
+# [3438690] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3464733] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3473414] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3516819] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3542862] UART TX -> 02
+# [3551543] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3568905] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3577586] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3629672] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3678936] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3705048] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3713752] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3722456] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3731160] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [3765976] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3778767] UART RX <- 14
+# -------------------------------------------------
+# PASS
+# Expected : 14
+# Received : 14
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 14
+# B        = 04
+# ALU_FUN  = 3
+# EXPECTED = 05
+# ===============================================
+# [3778767] UART TX -> cc
+# [3787448] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3813491] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3830853] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3848215] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3865577] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3874258] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3891620] UART TX -> 14
+# [3900301] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3926344] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3935025] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3943706] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3952387] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [3987111] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4004473] UART TX -> 04
+# [4013154] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4039197] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4047878] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4091283] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4117326] UART TX -> 03
+# [4126007] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4134688] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4152050] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4212817] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4253400] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [4262104] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4270808] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [4279512] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4288216] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [4340440] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4353231] UART RX <- 05
+# -------------------------------------------------
+# PASS
+# Expected : 05
+# Received : 05
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 4
+# EXPECTED = 00
+# ===============================================
+# [4353231] UART TX -> cc
+# [4361912] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4387955] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4405317] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4422679] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4440041] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4448722] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4466084] UART TX -> f0
+# [4474765] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4518170] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4552894] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4561575] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4578937] UART TX -> 0f
+# [4587618] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4596299] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4631023] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4674428] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4691790] UART TX -> 04
+# [4700471] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4726514] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4735195] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4778600] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4827864] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [4914904] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4927695] UART RX <- 00
+# -------------------------------------------------
+# PASS
+# Expected : 00
+# Received : 00
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 5
+# EXPECTED = ff
+# ===============================================
+# [4927695] UART TX -> cc
+# [4936376] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4962419] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4979781] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [4997143] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5014505] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5023186] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5040548] UART TX -> f0
+# [5049229] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5092634] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5127358] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5136039] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5153401] UART TX -> 0f
+# [5162082] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5170763] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5205487] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5248892] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5266254] UART TX -> 05
+# [5274935] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5283616] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5292297] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5300978] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5309659] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5361745] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5402328] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [5411032] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5480664] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [5489368] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5502159] UART RX <- ff
+# -------------------------------------------------
+# PASS
+# Expected : ff
+# Received : ff
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 6
+# EXPECTED = ff
+# ===============================================
+# [5502159] UART TX -> cc
+# [5510840] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5536883] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5554245] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5571607] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5588969] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5597650] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5615012] UART TX -> f0
+# [5623693] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5667098] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5701822] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5710503] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5727865] UART TX -> 0f
+# [5736546] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5745227] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5779951] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5823356] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5840718] UART TX -> 06
+# [5849399] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5866761] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5884123] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5936209] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [5976792] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [5985496] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6055128] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [6063832] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6076623] UART RX <- ff
+# -------------------------------------------------
+# PASS
+# Expected : ff
+# Received : ff
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 7
+# EXPECTED = 00
+# ===============================================
+# [6076623] UART TX -> cc
+# [6085304] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6111347] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6128709] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6146071] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6163433] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6172114] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6189476] UART TX -> f0
+# [6198157] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6241562] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6276286] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6284967] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6302329] UART TX -> 0f
+# [6311010] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6319691] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6354415] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6397820] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6415182] UART TX -> 07
+# [6423863] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6432544] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6458587] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6501992] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6551256] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [6638296] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6651087] UART RX <- 00
+# -------------------------------------------------
+# PASS
+# Expected : 00
+# Received : 00
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 8
+# EXPECTED = ff
+# ===============================================
+# [6651087] UART TX -> cc
+# [6659768] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6685811] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6703173] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6720535] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6737897] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6746578] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6763940] UART TX -> f0
+# [6772621] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6816026] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6850750] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6859431] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6876793] UART TX -> 0f
+# [6885474] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6894155] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6928879] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6972284] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [6989646] UART TX -> 08
+# [6998327] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7033051] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7041732] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7076456] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7125720] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [7134424] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7204056] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [7212760] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7225551] UART RX <- ff
+# -------------------------------------------------
+# PASS
+# Expected : ff
+# Received : ff
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = f0
+# B        = 0f
+# ALU_FUN  = 9
+# EXPECTED = 00
+# ===============================================
+# [7225551] UART TX -> cc
+# [7234232] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7260275] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7277637] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7294999] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7312361] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7321042] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7338404] UART TX -> f0
+# [7347085] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7390490] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7425214] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7433895] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7451257] UART TX -> 0f
+# [7459938] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7468619] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7503343] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7546748] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7564110] UART TX -> 09
+# [7572791] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7581472] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7590153] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7607515] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7616196] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7659601] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7700184] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [7787224] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7800015] UART RX <- 00
+# -------------------------------------------------
+# PASS
+# Expected : 00
+# Received : 00
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 55
+# B        = 55
+# ALU_FUN  = a
+# EXPECTED = 01
+# ===============================================
+# [7800015] UART TX -> cc
+# [7808696] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7834739] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7852101] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7869463] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7886825] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7895506] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7912868] UART TX -> 55
+# [7921549] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7930230] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7938911] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7947592] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7956273] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7964954] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7973635] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7982316] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [7990997] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8008359] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8025721] UART TX -> 55
+# [8034402] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8043083] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8051764] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8060445] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8069126] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8077807] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8086488] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8095169] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8103850] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8121212] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8138574] UART TX -> 0a
+# [8147255] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8164617] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8173298] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8181979] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8190660] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8234065] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8274648] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [8283352] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8292056] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [8352984] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8374479] UART RX <- 01
+# -------------------------------------------------
+# PASS
+# Expected : 01
+# Received : 01
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 55
+# B        = 20
+# ALU_FUN  = b
+# EXPECTED = 01
+# ===============================================
+# [8374479] UART TX -> cc
+# [8383160] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8409203] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8426565] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8443927] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8461289] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8469970] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8487332] UART TX -> 55
+# [8496013] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8504694] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8513375] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8522056] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8530737] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8539418] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8548099] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8556780] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8565461] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8582823] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8600185] UART TX -> 20
+# [8608866] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8660952] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8669633] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8686995] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8713038] UART TX -> 0b
+# [8721719] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8730400] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8747762] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8756443] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8765124] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8799848] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8849112] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [8857816] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8866520] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [8927448] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8948943] UART RX <- 01
+# -------------------------------------------------
+# PASS
+# Expected : 01
+# Received : 01
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 80
+# B        = 00
+# ALU_FUN  = c
+# EXPECTED = 40
+# ===============================================
+# [8948943] UART TX -> cc
+# [8957624] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [8983667] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9001029] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9018391] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9035753] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9044434] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9061796] UART TX -> 80
+# [9070477] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9139925] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9174649] UART TX -> 00
+# [9183330] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9270140] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9287502] UART TX -> 0c
+# [9296183] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9322226] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9339588] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9382993] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9423576] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [9484504] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9493208] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [9501912] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9523407] UART RX <- 40
+# -------------------------------------------------
+# PASS
+# Expected : 40
+# Received : 40
+# -------------------------------------------------
+# 
+# ===============================================
+# ALU OPERATION
+# A        = 04
+# B        = 00
+# ALU_FUN  = d
+# EXPECTED = 08
+# ===============================================
+# [9523407] UART TX -> cc
+# [9532088] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9558131] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9575493] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9592855] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9610217] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9618898] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9636260] UART TX -> 04
+# [9644941] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9670984] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9679665] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9723070] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9749113] UART TX -> 00
+# [9757794] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9844604] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9861966] UART TX -> 0d
+# [9870647] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9879328] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9888009] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9896690] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9914052] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9948776] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [9998040] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [10032856] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10041560] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [10076376] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10097871] UART RX <- 08
+# -------------------------------------------------
+# PASS
+# Expected : 08
+# Received : 08
+# -------------------------------------------------
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 0c
+# ADDRESS = 00
+# ===============================================
+# [10097871] UART TX -> aa
+# [10106552] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10123914] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10132595] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10141276] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10149957] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10158638] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10167319] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10176000] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10184681] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10193362] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10210724] UART TX -> 0c
+# [10219405] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10245448] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10262810] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10306215] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10323577] UART TX -> 00
+# [10332258] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10419068] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# REGISTER FILE WRITE
+# DATA    = 03
+# ADDRESS = 01
+# ===============================================
+# [10436610] UART TX -> aa
+# [10445291] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10462653] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10471334] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10480015] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10488696] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10497377] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10506058] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10514739] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10523420] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10532101] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10549463] UART TX -> 03
+# [10558144] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10566825] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10584187] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10644954] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10662316] UART TX -> 01
+# [10670997] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10679678] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10688359] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10749126] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# 
+# ===============================================
+# ALU OPERATION - NO OPERANDS
+# ALU_FUN  = 0
+# EXPECTED = 0f
+# ===============================================
+# [10775350] UART TX -> dd
+# [10784031] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10792712] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10801393] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10810074] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10836117] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10844798] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10862160] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10870841] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10888203] UART TX -> 00
+# [10896884] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [10983694] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11025112] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11033816] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11068632] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11112152] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11124943] UART RX <- 0f
+# -------------------------------------------------
+# PASS
+# Expected : 0f
+# Received : 0f
+# -------------------------------------------------
+# 
+# ===============================================
+# ERROR TEST: BAD PARITY  (frame = bb)
+# ===============================================
+# [11124943] UART TX (ERROR INJECT) -> bb  bad_parity=1 bad_stop=0
+# [11133624] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11142305] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11159667] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11168348] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11194391] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11203072] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11216600] WARNING: parity_error asserted
+# [11216600] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=1 FRAME_ERR=0
+# PASS: parity_error asserted
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 04
+# EXPECTED = 55
+# ===============================================
+# [11255157] UART TX -> bb
+# [11263838] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=1 FRAME_ERR=0
+# [11272519] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=1 FRAME_ERR=0
+# [11276984] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11289881] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11298562] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11324605] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11333286] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11341967] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11350648] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11368010] UART TX -> 04
+# [11376691] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11402734] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11411415] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11454820] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11503832] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11512536] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11521240] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11529944] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11538648] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11547352] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11556056] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11564760] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11573464] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11590872] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11603663] UART RX <- 55
+# -------------------------------------------------
+# PASS
+# Expected : 55
+# Received : 55
+# -------------------------------------------------
+# 
+# ===============================================
+# ERROR TEST: BAD STOP BIT  (frame = bb)
+# ===============================================
+# [11603663] UART TX (ERROR INJECT) -> bb  bad_parity=0 bad_stop=1
+# [11612344] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11621025] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11638387] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11647068] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11673111] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11681792] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11690473] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11704024] WARNING: framing_error asserted
+# [11704024] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=1
+# [11704568] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11707835] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11709464] WARNING: framing_error asserted
+# [11709464] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=1
+# [11710008] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# PASS: framing_error asserted
+# 
+# ===============================================
+# REGISTER FILE READ
+# ADDRESS = 05
+# EXPECTED = a5
+# ===============================================
+# [11733877] UART TX -> bb
+# [11742558] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11751239] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11768601] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11777282] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11803325] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11812006] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11820687] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11829368] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11846730] UART TX -> 05
+# [11855411] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11864092] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11872773] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11881454] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11890135] RST_N=1 RX_IN=0 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11942221] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11982552] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [11991256] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [11999960] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [12008664] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [12017368] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [12034776] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [12043480] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [12052184] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [12060888] RST_N=1 RX_IN=1 TX_OUT=0 PAR_ERR=0 FRAME_ERR=0
+# [12069592] RST_N=1 RX_IN=1 TX_OUT=1 PAR_ERR=0 FRAME_ERR=0
+# [12082383] UART RX <- a5
+# -------------------------------------------------
+# PASS
+# Expected : a5
+# Received : a5
+# -------------------------------------------------
+# 
+# =================================================
+#              TESTBENCH FINISHED
+# =================================================
+#    PASSED : 21
+#    FAILED : 0
+#    RESULT : ALL TESTS PASSED
+# =================================================
+# ** Note: $finish    : Top/system_tb.v(866)
+#    Time: 12083383 ns  Iteration: 0  Instance: /tb_SYS_TOP
+# 1
+# Break in Module tb_SYS_TOP at Top/system_tb.v line 866
+# End time: 04:04:32 on Oct 04,2026, Elapsed time: 0:05:03
+# Errors: 0, Warnings: 0

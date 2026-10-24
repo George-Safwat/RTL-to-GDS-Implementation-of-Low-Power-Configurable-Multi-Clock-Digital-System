@@ -1,0 +1,93 @@
+##This file is genrated to have command line decompiled Info even in Console
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--goal_info     lint/lint_functional_rtl@ CmdLine -                              -
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 39
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./spyglass-1_04Oct26_04.04/.SG_SaveRestoreDB CmdLine -                              -
+-enable_save_restore <ON>              CmdLine -                              -
+-enable_save_restore_builtin true              CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-lib            accellera_vlog=>/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/ovl/precompile/Linux4/accellera_verilog CmdFile $SPYGLASS_HOME/auxi/policy_data/auto-verify/autoload.f 2
+                accellera=>/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/ovl/precompile/Linux4/accellera_vhdl CmdFile $SPYGLASS_HOME/auxi/policy_data/auto-verify/autoload.f 3
+                WORK=>./spyglass-1_04Oct26_04.04/WORK CmdLine -                              -
+                accellera_vlog=>/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/ovl/precompile/Linux4/accellera_verilog CmdFile $SPYGLASS_HOME/auxi/policy_data/auto-verify/autoload.f 2
+                accellera=>/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/ovl/precompile/Linux4/accellera_vhdl CmdFile $SPYGLASS_HOME/auxi/policy_data/auto-verify/autoload.f 3
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdLine -                              -
+-nl             <ON>              CmdLine -                              -
+-policy         auto-verify       CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 42
+-projectwdir    ./spyglass-1_04Oct26_04.04 CmdLine -                              -
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-rules          Av_Info_Case_Analysis CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 56
+                Av_width_mismatch_assign CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 58
+                Av_width_mismatch_case CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 60
+                Av_width_mismatch_port CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 62
+                Av_width_mismatch_function CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 64
+                Av_signed_unsigned_mismatch CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 67
+                Av_width_mismatch_expr CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 70
+                Av_case_default_missing CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 72
+                Av_width_mismatch_expr03 CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 74
+                Av_width_mismatch_expr02 CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 76
+                Av_dontcare_mismatch CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 78
+                Av_case_default_redundant CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 80
+-sgdc           /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/policy_data/auto-verify/verif.sgdc CmdFile $SPYGLASS_HOME/auxi/policy_data/auto-verify/autoload.f 1
+                SYS_TOP.sgdc      CmdLine -                              -
+-sortmethod     du                Config  $SPYGLASS_HOME/.spyglass.setup 27
+-template       lint/lint_functional_rtl CmdLine -                              -
+-templatedir    /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff CmdLine -                              -
+-wdir           ./spyglass-1_04Oct26_04.04/lint/lint_functional_rtl CmdLine -                              -
+<design_files>  ALU/ALU.v         APICall -                              -
+                ASYNC_FIFO/Async_fifo.v APICall -                              -
+                ASYNC_FIFO/DF_Sync.v APICall -                              -
+                ASYNC_FIFO/fifo_mem.v APICall -                              -
+                ASYNC_FIFO/fifo_rd.v APICall -                              -
+                ASYNC_FIFO/fifo_wr.v APICall -                              -
+                CLKDIV_MUX/CLKDIV_MUX.v APICall -                              -
+                Clock_Divider/ClkDiv.v APICall -                              -
+                Clock_Gating/CLK_GATE.v APICall -                              -
+                DATA_SYNC/DATA_SYNC.v APICall -                              -
+                PULSE_GEN/PULSE_GEN.v APICall -                              -
+                RST_SYNC/RST_SYNC.v APICall -                              -
+                RegFile/RegFile.v APICall -                              -
+                System_control/sys_ctrl.v APICall -                              -
+                Top/SYS_TOP.v     APICall -                              -
+                UART/UART_RX/deserializer.v APICall -                              -
+                UART/UART_RX/edge_bit_counter.v APICall -                              -
+                UART/UART_RX/fsm.v APICall -                              -
+                UART/UART_RX/parity_check.v APICall -                              -
+                UART/UART_RX/sampling.v APICall -                              -
+                UART/UART_RX/start_checker.v APICall -                              -
+                UART/UART_RX/stop_check.v APICall -                              -
+                UART/UART_RX/uart_rx_top.v APICall -                              -
+                UART/UART_TOP/UART_top.v APICall -                              -
+                UART/UART_TX/fsm.v APICall -                              -
+                UART/UART_TX/mux.v APICall -                              -
+                UART/UART_TX/parity_calc.v APICall -                              -
+                UART/UART_TX/uart_serializer.v APICall -                              -
+                UART/UART_TX/uart_top.v APICall -                              -
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+-nocheckoverflow CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_functional_rtl.spq 51
+VALUE -- yes
+(KNOWN_PARAM)
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/spyglass
+auto-verify     SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/auto-verify
+
+

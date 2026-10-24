@@ -1,0 +1,26 @@
+Enabled AND-Sync
+Enabled Sync-Enable
+Enabled Clock_Gate-Sync
+Enabled Mux-Select
+Enabled Recirculation
+BEGIN::INFO
+SGDC current_design = SYS_TOP
+clock =
+REF_CLK
+UART_CLK
+SYS_TOP.UART_TX_CLK
+SYS_TOP.UART_RX_CLK
+SYS_TOP.ALU_CLK
+END::INFO
+BEGIN::INFO
+SGDC current_design = SYS_TOP
+reset =
+RST_N
+END::INFO
+BEGIN INFO :: CLOCKS INFORMATION
+Clk-Name=SYS_TOP.REF_CLK::Pos-Flop=280::Neg-Flop=0::UnKnown-Flop=0::Gating=Yes
+Clk-Name=SYS_TOP.ALU_CLK::Pos-Flop=17::Neg-Flop=0::UnKnown-Flop=0::Gating=No
+Clk-Name=SYS_TOP.UART_CLK::Pos-Flop=20::Neg-Flop=0::UnKnown-Flop=0::Gating=Yes
+Clk-Name=SYS_TOP.UART_TX_CLK::Pos-Flop=35::Neg-Flop=0::UnKnown-Flop=0::Gating=No
+Clk-Name=SYS_TOP.UART_RX_CLK::Pos-Flop=45::Neg-Flop=0::UnKnown-Flop=0::Gating=No
+END CLOCKS INFORMATION

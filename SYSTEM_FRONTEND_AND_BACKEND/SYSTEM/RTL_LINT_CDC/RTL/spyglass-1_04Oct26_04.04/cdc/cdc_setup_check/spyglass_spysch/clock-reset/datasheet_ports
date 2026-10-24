@@ -1,0 +1,8 @@
+SCHEMA@@PName@@RefClock@@Clock Type@@InSync
+VALUE@@RST_N@@-@@async reset@@-
+VALUE@@UART_CLK@@-@@clock@@-
+VALUE@@REF_CLK@@-@@clock@@-
+VALUE@@UART_RX_IN@@SYS_TOP.UART_RX_CLK@@-@@-
+VALUE@@UART_TX_O@@SYS_TOP.UART_TX_CLK@@-@@-
+VALUE@@parity_error@@SYS_TOP.UART_RX_CLK@@-@@-
+VALUE@@framing_error@@SYS_TOP.UART_RX_CLK@@-@@-

@@ -1,0 +1,207 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Legion/Desktop/Projects_GSW/Digital_circuits_Project
+T_opt
+!s110 1785712506
+VJ`<l;3I6K69eW0OCG=`cP2
+04 8 4 work uart_top fast 0
+=1-88a4c2e3544c-6a6fcf7a-36e-18f4
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1785690572
+VJoBMjNK?XfDe0NEgGJ4Fa1
+04 11 4 work uart_top_tb fast 0
+=1-88a4c2e3544c-6a6f79cc-141-6c38
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1786403260
+V58;XGF[c@CQ=ilNQLjL:41
+04 7 4 work uart_tb fast 0
+=1-88a4c2e3544c-6a7a59bc-1b-3e58
+R1
+R2
+n@_opt2
+R3
+vfsm
+Z4 !s110 1786403258
+!i10b 1
+!s100 E8e5>@HFI=OWcQO>WVBTV1
+IOcAGb6C`T8AFAPml]9UFE0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dC:/Users/Legion/Desktop/ASIC Diploma/UART_TX
+w1786403254
+8fsm.v
+Ffsm.v
+L0 1
+Z7 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z8 !s108 1786403258.000000
+Z9 !s107 uart_top.v|uart_tb.v|uart_serializer.v|parity_calc.v|mux.v|fsm.v|
+Z10 !s90 -reportprogress|300|fsm.v|mux.v|parity_calc.v|uart_serializer.v|uart_tb.v|uart_top.v|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmux
+R4
+!i10b 1
+!s100 z?9<>04?cm:zICWA`MFn70
+I`[Z_8U>m=[VlJbJHI@:Ug1
+R5
+R6
+w1785782866
+8mux.v
+Fmux.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vparity
+R4
+!i10b 1
+!s100 52UgjZanLJ@oRaCF=GAZ<2
+ICi?jJoehkXPRedJS^nDD32
+R5
+R6
+w1785721026
+8parity_calc.v
+Fparity_calc.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vserialz
+!s110 1785758637
+!i10b 1
+!s100 d?Uf^:N=@00z8bS[jj;md3
+IE8CV4b93Kn8V=O`hWYeZf2
+R5
+Z12 dC:/Users/Legion/Desktop/ASIC Diploma/Courses/UART_TX
+w1785711960
+Z13 8uart_serializer.v
+Z14 Fuart_serializer.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1785758637.000000
+R9
+R10
+!i113 0
+R11
+R2
+vsz
+R4
+!i10b 1
+!s100 cV?l`Ri>eRXfi;c]cTSGl1
+Ic2d==`Ja_g<[0>_IIa7gP1
+R5
+R6
+w1785777818
+R13
+R14
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vuart_tb
+R4
+!i10b 1
+!s100 BJ_V5Edj4N_:bD1QnoVlo2
+Ijf]W;o;5gZh:AkBz3lz_11
+R5
+R6
+w1785787518
+8uart_tb.v
+Fuart_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vuart_top
+R4
+!i10b 1
+!s100 [njWRkJSKcCZ9Bg3BU80k0
+IZkWaJjV_87=LOoe]aPQOD1
+R5
+R6
+w1785776962
+8uart_top.v
+Fuart_top.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vuart_top_tb
+!s110 1785688363
+!i10b 1
+!s100 _03CDhZ?mDHdWU2];kg7]0
+IXGnUzWHYZeL=FV5]Vfab?3
+R5
+R12
+w1785688357
+8C:/Users/Legion/Desktop/ASIC Diploma/Courses/UART_TX/uart_tb.v
+FC:/Users/Legion/Desktop/ASIC Diploma/Courses/UART_TX/uart_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1785688363.000000
+!s107 C:/Users/Legion/Desktop/ASIC Diploma/Courses/UART_TX/uart_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Legion/Desktop/ASIC Diploma/Courses/UART_TX/uart_tb.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2

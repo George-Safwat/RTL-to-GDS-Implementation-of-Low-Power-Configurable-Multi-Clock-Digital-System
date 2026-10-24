@@ -1,0 +1,12 @@
+#x STXT_BEGIN ST.1
+## STXT_PROPERTY SG_ML_HANDLE_OBJ_ATTACH
+## UART/UART_TX/uart_serializer.v 24
+## UART/UART_TX/uart_serializer.v 19
+#x STXT_END ST.1
+#x STXT_BEGIN ST.2
+#x STXT_BEGIN ST.3
+## STXT_PROPERTY SG_ML_HANDLE_OBJ_ATTACH
+## System_control/sys_ctrl.v 396
+## System_control/sys_ctrl.v 265
+#x STXT_END ST.3
+#x STXT_BEGIN ST.4

@@ -1,0 +1,231 @@
+2 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+1
+3 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+2
+4 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+3
+5 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+4
+6 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+5
+7 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+6
+8 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+7
+9 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+8
+10 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+9
+11 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+10
+12 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+11
+13 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+12
+14 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+13
+15 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+14
+16 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+15
+17 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+16
+18 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+17
+19 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+18
+20 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+19
+21 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+20
+22 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+21
+23 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+22
+24 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+23
+25 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+24
+26 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+25
+27 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+26
+28 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+27
+29 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+28
+30 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+29
+31 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+30
+32 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+31
+33 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+32
+34 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+33
+35 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+34
+36 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+35
+37 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+36
+38 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+37
+39 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+38
+40 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+39
+41 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+40
+42 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+41
+43 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+42
+44 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+43
+45 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+44
+46 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+45
+47 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+46
+48 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+47
+49 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+48
+50 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+49
+51 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+50
+52 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+51
+53 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+52
+54 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+53
+55 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+54
+56 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+55
+57 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+56
+58 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+57
+59 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+58
+60 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+59
+61 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+60
+62 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+61
+63 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+62
+64 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+63
+65 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+64
+66 "Av_initstate01" 1
+"AV_INITSTATE01_SS_SCH01"
+65
+67 "Av_initstate01" 1
+"Open_Sp_Sheet"
+["./spyglass-1_04Oct26_04.04/lint/lint_functional_rtl/spyglass_reports/auto-verify/Uninitialized_Sequential_Elements.csv@@cross-probecol:1@@init_callback:auto_verify::DisableTabsInSpreadSheet","./spyglass-1_04Oct26_04.04/lint/lint_functional_rtl/spyglass_reports/auto-verify/Initialized_Sequential_Elements.csv@@cross-probecol:1"]
+-1 "Av_Info_Case_Analysis" 4
+"TEMPLATE"
+["lint/lint_functional_rtl"]
+"RULE_ORDER"
+[1]
+"RULEGROUP"
+["auto-verify/Info"]
+"SPG_RULETAG_SCH_INFO_RULE"
+"Show Info Case Analysis Data"
+-1 "Av_initstate01" 3
+"TEMPLATE"
+["lint/lint_functional_rtl"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["auto-verify/Info"]
+-1 "Av_report01" 3
+"TEMPLATE"
+["lint/lint_functional_rtl"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["auto-verify/Info"]
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
